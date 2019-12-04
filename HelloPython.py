@@ -1,8 +1,8 @@
 
 from flask import Flask
 app = Flask(__name__)
-@app.route('/')
 import datetime
+@app.route('/')
 print("Hello World!")
 print("Hello Wiktor!")
 now = datetime.datetime.now()
