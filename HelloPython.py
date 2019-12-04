@@ -1,7 +1,6 @@
-
 from flask import Flask
-app = Flask(__name__)
 import datetime
+app = Flask(__name__)
 @app.route('/')
 print("Hello World!")
 print("Hello Wiktor!")
